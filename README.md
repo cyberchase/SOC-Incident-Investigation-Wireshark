@@ -86,9 +86,23 @@ Evidence screenshots:
 * Screenshots/MAC_Address_Verification.png
 * Screenshots/Kerberos_Analysis.png
 * Screenshots/User_Identification.png
+* Screenshots?08_08_NetSupport_RAT_Traffic.png
 
 ---
+## Lessons Learned
 
+This investigation reinforced the importance of correlating evidence across multiple protocols.
+
+Key takeaways included:
+
+- Using NBNS traffic to identify workstation hostnames.
+- Leveraging Kerberos authentication traffic to identify user accounts.
+- Using SAMR responses to attribute activity to a specific user.
+- Correlating network communications with SIEM alert data to identify affected systems.
+
+This project strengthened my understanding of network traffic analysis, Active Directory investigations, and incident response workflows.
+
+---
 ## Conclusion
 
 Analysis confirmed that workstation DESKTOP-TEYQ2NR (10.2.28.88) communicated with infrastructure associated with NetSupport Manager RAT activity.
